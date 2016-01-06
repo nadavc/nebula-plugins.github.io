@@ -1,0 +1,15 @@
+baseurl: ""
+exclude: 
+  - "less"
+  - "node_modules"
+  - "gulpfile.js"
+  - "package.json"
+markdown: kramdown
+kramdown:
+  toc_levels: 1..2
+# Default sitewide metadata
+meta_defaults:
+  description: "A collection of Gradle plugins for building software the Netflix way."
+  # TODO Update this nebula tagline
+  title: "A collection of Gradle plugins, built by Netflix"
+  title_prefix: "Nebula: "  
